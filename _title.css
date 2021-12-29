@@ -1,0 +1,45 @@
+.c-title {
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 45px;
+}
+
+.c-title__jp {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.c-title__jp::before, .c-title__jp::after {
+  content: "";
+  height: 1px;
+  flex-grow: 1;
+  background-color: #e7e7e7;
+}
+
+.c-title__jp::before {
+  margin-right: 1rem;
+}
+
+.c-title__jp::after {
+  margin-left: 1rem;
+}
+
+.c-title__dark::before, .c-title__dark::after {
+  background-color: #727272;
+}
+
+.c-title__en {
+  font-size: 5px;
+  color: #cf974d;
+}
+
+@media screen and (max-width: 1023px) {
+  .c-title {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+}
