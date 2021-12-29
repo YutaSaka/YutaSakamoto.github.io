@@ -1,0 +1,30 @@
+.p-sns {
+  width: 100%;
+  display: flex;
+  padding-bottom: 45px;
+
+  &__txt {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: auto;
+  }
+
+  &__icon {
+    width: 35px;
+    margin-left: 20px;
+
+    &List {
+      display: flex;
+      margin-right: auto;
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .p-sns {
+    &__icon {
+      margin-left: 40px;
+    }
+  }
+}
